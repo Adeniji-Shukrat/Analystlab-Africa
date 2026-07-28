@@ -59,6 +59,73 @@ SQL Server Management Studio (SSMS), T-SQL
 
 ---
 
+## Week 4: COVID-19 Global Dashboard | Power BI
+
+### Project Overview
+This project was completed as part of the AnalystLab Africa Data Analytics Internship (Week 4).
+The objective was to analyze the Johns Hopkins University CSSE Global COVID-19 Dataset and build 
+an interactive dashboard that communicates key insights through effective data visualization and storytelling.
+
+### Problem Statement
+Public health organizations require reliable visual analytics to monitor COVID-19 trends, compare 
+countries, and identify patterns that support informed decision-making.
+
+This dashboard answered questions such as:
+- Which countries recorded the highest confirmed cases?
+- How did confirmed cases and deaths change over time?
+- What was the global death rate?
+- How were confirmed cases distributed geographically?
+
+### Dataset
+| | |
+|---|---|
+| **Source** | Johns Hopkins University CSSE COVID-19 Repository |
+| **Period Covered** | January 2020 – March 2023 |
+
+### Tools Used
+- Power BI
+- Power Query
+- DAX
+
+### Data Preparation
+The original dataset was stored in a wide format with more than 1,100 date columns.
+The following transformations were performed in Power Query:
+- Promoted the first row to headers
+- Unpivoted date columns
+- Removed unnecessary columns
+- Merged datasets
+- Created relationships
+- Built DAX measures for KPIs
+
+### Dashboard Preview
+![COVID-19 Dashboard](Week%204/Dashboard_Screenshot.png)
+
+### Dashboard Features
+- Interactive slicers
+- KPI Cards
+- Geographic Map
+- Trend Analysis
+- Country Comparison
+- Recovery vs Death Analysis
+
+### Key Insights
+- United States recorded the highest confirmed COVID-19 cases
+- The dataset represents 201 countries
+- Global death rate remained approximately 1.03%
+- Recovery tracking stopped in mid-2021, limiting long-term recovery analysis
+
+### Challenges
+- Wide-format dataset requiring extensive transformation
+- Cumulative data required careful DAX calculations
+- Missing recovery data after mid-2021
+- Power Query transformation workflow
+
+### Files Included
+- Power BI Dashboard (.pbix)
+- Dashboard Screenshots
+- Presentation Slides
+
+---
 ## About
 **Intern:** Adeniji Shukrat Opeyemi
 **Program:** AnalystLab Africa Data Analytics Internship — Batch C
