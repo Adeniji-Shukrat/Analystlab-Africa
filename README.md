@@ -98,7 +98,7 @@ The following transformations were performed in Power Query:
 - Built DAX measures for KPIs
 
 ### Dashboard Preview
-![COVID-19 Dashboard](Week%204/Dashboard_Screenshot.png)
+![COVID-19 Dashboard](AnalystLab_Week4_Submission/Dashboard_Screenshot.png)
 
 ### Dashboard Features
 - Interactive slicers
